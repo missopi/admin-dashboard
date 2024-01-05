@@ -186,7 +186,7 @@ a {
   display: grid;
   grid-template-columns: 2fr 1fr;
   padding-left: 1rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
   gap: 1rem;
   padding-right: 1rem;
 }
@@ -200,6 +200,10 @@ a {
 .main-heading {
   font-weight: 500;
   font-size: 1rem;
+}
+
+#trending {
+  padding-top: 0.5rem;
 }
 
 .project-box {
@@ -246,7 +250,31 @@ a {
 .a-blurb {
   font-size: 0.7rem;
   color: gray;
-  
+}
+
+.other-pages {
+  background-color: #F7F9FB;
+  border-radius: 18px;
+  padding-top: 1.65rem;
+  padding-left: 1.5rem;
+  padding-bottom: 1.65rem;
+  box-shadow: 3px 5px 2px #9dbdd2;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+.other-avatar {
+  height: 50px;
+}
+
+.other {
+  color: gray;
+}
+
+.other-name,
+.description {
+  font-size: 0.6rem;
 }
 
 
