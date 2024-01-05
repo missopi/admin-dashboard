@@ -212,6 +212,9 @@ a {
   border-radius: 18px;
   border-left: 10px solid orange;
   box-shadow: 3px 5px 2px #9dbdd2;
+  display: grid;
+  grid-template-rows: 1fr 0.2fr;
+  justify-items: end;
 }
 
 .title {
