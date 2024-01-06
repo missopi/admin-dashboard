@@ -114,6 +114,10 @@ button {
   font-weight: 600;
 }
 
+button:hover {
+  background-color: #9dbdd2;
+}
+
 /* SIDEBAR */
 
 .sidebar {
